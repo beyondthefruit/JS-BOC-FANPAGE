@@ -188,6 +188,9 @@ p {
   .section-center {
     width: 95vw;
   }
+  .section {
+    padding-top: 1.5rem;
+  }
 }
 main {
   min-height: 100vh;
@@ -515,6 +518,10 @@ footer p {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   margin-bottom: 0;
+}
+
+footer a {
+  color: var(--clr-white);
 }
 
 .top-link {
