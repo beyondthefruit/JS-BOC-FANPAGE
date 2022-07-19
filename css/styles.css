@@ -200,6 +200,8 @@ main {
 /* scroll navbar */
 nav {
   background: var(--clr-white);
+  position: relative;
+  z-index: 5;
   /* padding: 1rem 1.5rem; */
   /* with padding smoth scrol not working */
 }
@@ -229,14 +231,15 @@ nav {
 
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-grey-1);
+  color: var(--clr-black);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
+  padding-right: 0.75rem;
 }
 .nav-toggle:hover {
-  color: var(--clr-secondary);
+  color: var(--clr-black);
 }
 
 .logo {
@@ -248,18 +251,19 @@ nav {
   transition: var(--transition);
 }
 .show-links {
-  height: 200px;
+  height: 500px;
 }
 .links a {
   background: var(--clr-white);
-  color: var(--clr-grey-4);
+  color: var(--clr-grey-1);
   font-size: 1.1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
   transition: var(--transition);
+
   font-weight: bold;
-  padding: 0.75rem 0;
+  padding: 0.75rem 0 0.75rem 0.5rem;
 }
 .links a:hover {
   color: var(--clr-white);
